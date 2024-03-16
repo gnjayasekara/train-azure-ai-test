@@ -27,7 +27,7 @@ def predict_image(image):
 
 # Streamlit app
 def main():
-    st.title("Dog Breed Prediction App")
+    st.title("Flower Identification App")
 
     # User input: image upload or URL
     option = st.radio("Choose Input Option:", ('Upload Image', 'Image URL'))
